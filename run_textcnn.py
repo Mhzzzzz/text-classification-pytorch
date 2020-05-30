@@ -36,10 +36,10 @@ def main():
 	# ======================
 	# 数据
 	# ======================
-	with open('../_data/rt-polaritydata/rt-polarity.pos', 'r', encoding='Windows-1252') as f:
+	with open('rt-polaritydata/rt-polarity.pos', 'r', encoding='Windows-1252') as f:
 		raw_pos = f.read().split("\n")
 	raw_pos = list(filter(lambda x: x not in ['', None], raw_pos))
-	with open('../_data/rt-polaritydata/rt-polarity.neg', 'r', encoding='Windows-1252') as f:
+	with open('rt-polaritydata/rt-polarity.neg', 'r', encoding='Windows-1252') as f:
 		raw_neg = f.read().split("\n")
 	raw_neg = list(filter(lambda x: x not in ['', None], raw_neg))
 	data_helper = data.DataHelper([raw_pos, raw_neg], use_label=True)
