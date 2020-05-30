@@ -6,9 +6,9 @@ Pytorch implementation of TextCNN and TextRNN for text classification task.
 
 ## Environment
 - Python 3.6
-- Pytorch 1.4
+- Pytorch 1.1.0
 - Debugsummary 0.1
-- Numpy 1.17
+- Numpy 1.18.1
 
 
 ## Dataset
