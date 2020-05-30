@@ -21,6 +21,7 @@ python run_textcnn.py
 ```
 
 ## Training TextRNN
+You can use either rnn cell, gru cell or lstm cell. You can use the biderectional version. Change the configurations in the code.
 ```bash
 python run_textrnn.py
 ```
