@@ -104,7 +104,7 @@ def main():
 		if (epoch + 1) % SAVE_EVERY == 0:
 			print('saving parameters')
 			os.makedirs('models', exist_ok=True)
-			torch.save(model.state_dict(), 'model/textcnn-' + str(epoch) + '.pkl')
+			torch.save(model.state_dict(), 'models/textcnn-' + str(epoch) + '.pkl')
 
 
 if __name__ == '__main__':
