@@ -60,6 +60,7 @@ def main():
 	summary(model, (20,))
 	criteration = nn.CrossEntropyLoss()
 	optimizer = optim.SGD(model.parameters(), lr=LEARNING_RATE)
+	print()
 
 	# ======================
 	# 训练与测试
